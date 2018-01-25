@@ -1,5 +1,5 @@
 {
-    "name": "upyun-banma-sdk",
+    "name": "upyun-banma/sdk",
     "description": "upyun-banma-sdk for php",
     "keywords": ["UPYUN", "sdk","banma","AI"],
     "type": "library",
