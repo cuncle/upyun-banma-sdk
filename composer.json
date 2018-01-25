@@ -1,10 +1,10 @@
 {
-    "name": "upyun-banma/sdk",
-    "description": "UPYUN-banma sdk for php",
-    "keywords": ["UPYUN", "sdk"],
+    "name": "upyun-banma-sdk",
+    "description": "upyun-banma-sdk for php",
+    "keywords": ["UPYUN", "sdk","banma","AI"],
     "type": "library",
     "minimum-stability": "stable",
-    "homepage": "https://github.com/cuncle/banma-php-sdk",
+    "homepage": "https://github.com/cuncle/upyun-banma-sdk",
     "license": "MIT",
     "require": {
         "php": ">=5.5.0",
