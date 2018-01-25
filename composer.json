@@ -6,9 +6,22 @@
     "minimum-stability": "stable",
     "homepage": "https://github.com/cuncle/upyun-banma-sdk",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "cuncle",
+            "email": "indeqing@gmail.com",
+            "homepage": "https://github.com/cuncle",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=5.5.0",
         "ext-curl": "*",
         "guzzlehttp/guzzle": "~6.0"
+    }
+    "autoload": {
+        "psr-4": {
+            "banma\\": "src/"
+        }
     }
 }
