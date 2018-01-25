@@ -44,7 +44,7 @@ class UpYun {
 
     public function process($data, $url,$method = 'POST') {
         $sign = $this->createSign($data);
-        $date_gmt = gmdate('D, d M Y H:i:s') . ' GMT';
+        $date_gmt_header = gmdate('D, d M Y H:i:s') . ' GMT';
         $sign_header =  "UPYUN ".$this->_client_key.":".$sign; 
         $client = new Client([
             'timeout' => '30',
@@ -53,7 +53,7 @@ class UpYun {
         $response = $client->request($method, $url, [
             'headers' => [
                 'Authorization' =>   $sign_header,
-                'Date' => $date_gmt
+                'Date' => $date_gmt_header
             ],
             'body' => $data
         ]);
