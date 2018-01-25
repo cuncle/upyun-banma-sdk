@@ -1,6 +1,6 @@
 <?php
-require_once('../vendor/autoload.php');
-require_once('../src/upyun.class.php');
+require dirname(__DIR__) . '/vendor/autoload.php';
+use Banma\UpYun; 
 // 初始化 UpYun
 $upyun = new UpYun ('ClientKey', 'ClientSecret','/image/url/check');//参数获取可以参考文档：http://docs.upyun.com/ai/audit/
 
