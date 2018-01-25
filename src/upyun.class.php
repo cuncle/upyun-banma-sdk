@@ -1,4 +1,5 @@
 <?php
+namespace Banma;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7;
 class UpYun {
