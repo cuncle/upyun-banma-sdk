@@ -1,0 +1,14 @@
+{
+    "name": "upyun-banma/sdk",
+    "description": "UPYUN-banma sdk for php",
+    "keywords": ["UPYUN", "sdk"],
+    "type": "library",
+    "minimum-stability": "stable",
+    "homepage": "https://github.com/cuncle/banma-php-sdk",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
